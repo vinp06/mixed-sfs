@@ -26,3 +26,13 @@ featureWeights = sfs.selectFeatures(inData, maxNumClusters, catCols)
 ```
 
 Refer in-code documentation for more details on the function `selectFeatures`. 
+
+## Testing
+
+Code was developed and tested on:
+- Ubuntu 20.04.1
+- CUDA toolkit version 11.0
+- pycuda version 2019.1.2
+- scikit-cuda version 0.5.3
+- numpy version 1.19.1
+- python version 3.8.2
