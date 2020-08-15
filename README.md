@@ -16,7 +16,7 @@
 
 ## Instructions
 
-1. Ensure all dependencies are met - Install them as per instructions provided by respective packages.
+1. Ensure all [dependencies](./#dependencies) are met - Install them as per instructions provided by respective packages.
 2. `git clone` the repository and use directly. No packaging done yet, sorry.
 3. To perform spectral feature selection on mixed data:
 
