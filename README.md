@@ -13,3 +13,16 @@ Developed using the paper: Solorio-Fernández, S., Martínez-Trinidad, J.F. and 
 2. [pycuda](https://pypi.org/project/pycuda/)
 3. [scikit-cuda](https://pypi.org/project/scikit-cuda/)
 4. [numpy](https://numpy.org/)
+
+## Instructions
+
+1. Ensure all dependencies are met. 
+2. `git clone` the repository and use directly. No packaging done yet, sorry.
+3. To perform spectral feature selection on mixed data:
+
+```
+import mixed-sfs.spectralFeatureSelection as sfs
+featureWeights = sfs.selectFeatures(inData, maxNumClusters, catCols)
+```
+
+Refer in-code documentation for more details on the function `selectFeatures`. 
